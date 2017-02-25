@@ -8,5 +8,4 @@ public interface OnSongListClickListener {
 
     void playSong(String songId);
     void stopSong(String songId);
-    void onlyStopSong();
 }

@@ -79,11 +79,7 @@ public class FragmentSongs extends Fragment implements OnSongListClickListener{
     public void stopSong(String songId) {
         ((MainActivity)getContext()).stopSong(songId);
     }
-
-    @Override
-    public void onlyStopSong() {
-
-    }
+    
 
 
 }
