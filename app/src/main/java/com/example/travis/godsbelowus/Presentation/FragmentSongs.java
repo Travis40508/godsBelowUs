@@ -45,6 +45,15 @@ public class FragmentSongs extends Fragment implements OnSongListClickListener{
         return view;
     }
 
+    public static FragmentSongs newInstance() {
+        
+        Bundle args = new Bundle();
+        
+        FragmentSongs fragment = new FragmentSongs();
+        fragment.setArguments(args);
+        return fragment;
+    }
+
     public void initSongList() {
         Songs exordium = new Songs("Exordium");
         list.add(exordium);
