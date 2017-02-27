@@ -42,7 +42,6 @@ public class SongListAdapter extends RecyclerView.Adapter<SongListAdapter.SongVi
     @Override
     public void onBindViewHolder(SongViewHolder holder, int position) {
         holder.title.setText(list.get(position).getTitle());
-        holder.songId.setText(list.get(position).getSongId());
 
     }
 
@@ -54,8 +53,6 @@ public class SongListAdapter extends RecyclerView.Adapter<SongListAdapter.SongVi
     public class SongViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         @BindView(R.id.song_row_title)
         TextView title;
-        @BindView(R.id.song_row_id)
-        TextView songId;
 
 
         public SongViewHolder(View itemView) {

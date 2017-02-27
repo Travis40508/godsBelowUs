@@ -6,11 +6,9 @@ package com.example.travis.godsbelowus.Presentation.Models;
 
 public class Songs {
     private String title;
-    private int songId;
 
-    public Songs(String title, int songId) {
+    public Songs(String title) {
         this.title = title;
-        this.songId = songId;
     }
 
     public String getTitle() {
@@ -19,13 +17,5 @@ public class Songs {
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public int getSongId() {
-        return songId;
-    }
-
-    public void setSongId(int songId) {
-        this.songId = songId;
     }
 }

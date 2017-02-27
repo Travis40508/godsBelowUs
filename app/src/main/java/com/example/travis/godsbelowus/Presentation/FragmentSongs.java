@@ -46,27 +46,27 @@ public class FragmentSongs extends Fragment implements OnSongListClickListener{
     }
 
     public void initSongList() {
-        Songs exordium = new Songs("Exordium", R.raw.exordium);
+        Songs exordium = new Songs("Exordium");
         list.add(exordium);
-        Songs oneMoreReasonToDie = new Songs("One More Reason To Die", R.raw.one_more_reason_to_die);
+        Songs oneMoreReasonToDie = new Songs("One More Reason To Die");
         list.add(oneMoreReasonToDie);
-        Songs siren = new Songs("Siren", R.raw.siren);
+        Songs siren = new Songs("Siren");
         list.add(siren);
-        Songs tempus = new Songs("Tempus", R.raw.tempus);
+        Songs tempus = new Songs("Tempus");
         list.add(tempus);
-        Songs whatNeverWas = new Songs("What Never Was", R.raw.what_never_was);
+        Songs whatNeverWas = new Songs("What Never Was");
         list.add(whatNeverWas);
-        Songs hellIsRepetition = new Songs("Hell Is Repetition", R.raw.hell_is_repetition);
+        Songs hellIsRepetition = new Songs("Hell Is Repetition");
         list.add(hellIsRepetition);
-        Songs iStandOpposed = new Songs("I Stand Opposed", R.raw.i_stand_opposed);
+        Songs iStandOpposed = new Songs("I Stand Opposed");
         list.add(iStandOpposed);
-        Songs mouthfulOfAshes = new Songs("Mouthful Of Ashes", R.raw.mouthful_of_ashes);
+        Songs mouthfulOfAshes = new Songs("Mouthful Of Ashes");
         list.add(mouthfulOfAshes);
-        Songs mournTheSky = new Songs("Mourn The Sky", R.raw.mourn_the_sky);
+        Songs mournTheSky = new Songs("Mourn The Sky");
         list.add(mournTheSky);
-        Songs themBones = new Songs("Them Bones", R.raw.them_bones);
+        Songs themBones = new Songs("Them Bones");
         list.add(themBones);
-        Songs whatNeverWasAcoustic = new Songs("What Never Was(Acoustic)", R.raw.what_never_was_acoustic);
+        Songs whatNeverWasAcoustic = new Songs("What Never Was(Acoustic)");
         list.add(whatNeverWasAcoustic);
         adapter.notifyDataSetChanged();
     }
