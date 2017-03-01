@@ -42,6 +42,7 @@ public class FragmentSongs extends Fragment implements OnSongListClickListener{
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
         initSongList();
+        adapter.notifyDataSetChanged();
         return view;
     }
 
@@ -77,7 +78,13 @@ public class FragmentSongs extends Fragment implements OnSongListClickListener{
         list.add(themBones);
         Songs whatNeverWasAcoustic = new Songs("What Never Was(Acoustic)");
         list.add(whatNeverWasAcoustic);
-        adapter.notifyDataSetChanged();
+
+    }
+
+    @Override
+    public void onDetach() {
+        super.onDetach();
+        list.clear();
     }
 
     @Override

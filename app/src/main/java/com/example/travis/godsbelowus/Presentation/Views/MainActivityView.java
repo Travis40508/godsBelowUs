@@ -5,5 +5,5 @@ package com.example.travis.godsbelowus.Presentation.Views;
  */
 
 public interface MainActivityView {
-    void buildFragment();
+//    void buildFragment();
 }

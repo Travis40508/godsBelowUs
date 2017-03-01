@@ -17,6 +17,6 @@ public class MainActivityPresenter {
 
 
     public void activityCreated() {
-        view.buildFragment();
+//        view.buildFragment();
     }
 }
