@@ -62,7 +62,7 @@
             android:layout_marginEnd="40dp"
             android:layout_alignParentEnd="true"/>
     </android.support.percent.PercentRelativeLayout>
-    
+
     <android.support.v4.view.ViewPager
         android:id="@+id/view_pager"
         android:layout_width="match_parent"

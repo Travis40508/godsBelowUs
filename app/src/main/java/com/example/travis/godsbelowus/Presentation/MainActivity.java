@@ -35,8 +35,9 @@ public class MainActivity extends AppCompatActivity implements MainActivityView 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-//        mViewPager.setAdapter(adapter);
-//        populateList();
+        populateList();
+        adapter = new ScreenSlidePageAdapter(getSupportFragmentManager(), fragmentList);
+        mViewPager.setAdapter(adapter);
         presenter.activityCreated();
     }
 
