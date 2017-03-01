@@ -37,11 +37,17 @@ public class FragmentSongs extends Fragment implements OnSongListClickListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_songs, container, false);
         ButterKnife.bind(this, view);
-        adapter = new SongListAdapter(list, this);
+        if (adapter == null) {
+
+            adapter = new SongListAdapter(list, this);
+        }
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
-        initSongList();
+        if(list.isEmpty()) {
+            initSongList();
+        }
+
         adapter.notifyDataSetChanged();
         return view;
     }
