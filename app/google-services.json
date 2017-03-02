@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "899557831845",
+    "firebase_url": "https://godsbelowus-448b4.firebaseio.com",
+    "project_id": "godsbelowus-448b4",
+    "storage_bucket": "godsbelowus-448b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899557831845:android:fda655995c037855",
+        "android_client_info": {
+          "package_name": "com.example.travis.godsbelowus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899557831845-r8v8ljmdqmvftu2b1an77pb408pt9mnq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travis.godsbelowus",
+            "certificate_hash": "a71fe79583d57247ba2b5e5e1ea417addaa3e76d"
+          }
+        },
+        {
+          "client_id": "899557831845-uf7s1jeholccd58d0qb7s93a2fdfendu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMAbjORrWobanLABXj5Oyojkh1j8JTBlQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899557831845-uf7s1jeholccd58d0qb7s93a2fdfendu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
