@@ -9,6 +9,9 @@ public class Dates {
     private String time;
     private String location;
 
+    public Dates() {
+    }
+
     public Dates(String date, String time, String location) {
         this.date = date;
         this.time = time;

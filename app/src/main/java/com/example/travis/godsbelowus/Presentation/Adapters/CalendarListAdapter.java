@@ -47,13 +47,13 @@ public class CalendarListAdapter extends RecyclerView.Adapter<CalendarListAdapte
 
     public class DatesViewHolder extends RecyclerView.ViewHolder {
         @BindView(R.id.text_view_date)
-        private TextView date;
+        public TextView date;
 
         @BindView(R.id.text_view_time)
-        private TextView time;
+        public TextView time;
 
         @BindView(R.id.text_view_location)
-        private TextView location;
+        public TextView location;
 
         public DatesViewHolder(View itemView) {
             super(itemView);
